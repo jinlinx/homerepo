@@ -1,0 +1,5 @@
+node_modules
+.vscode
+credentials.json
+hebrewstoken.txt
+santuryReminderToken.json
