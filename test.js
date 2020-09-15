@@ -6,7 +6,7 @@ const qa=require('./lib/getSheet');
 const sheet=qa.createSheet();
 
 
-sheet.readRanges('1lXOIPkIhpMRLtQTg7CXkhE2M3__vJmGkwlHKTNk1rO4',[`'TenantInfo'!A1:E2500`]).then(res => {
+sheet.readRanges('1lXOIPkIhpMRLtQTg7CXkhE2M3__vJmGkwlHKTNk1rO4',[`'TenantInfo'!A:E`]).then(res => {
     console.log('done2');
     console.log(res.data.valueRanges[0].values);
 });
